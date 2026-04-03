@@ -37,7 +37,7 @@ export default function HomePage() {
         {/* Hero Visual */}
         <div className="hidden lg:flex items-center justify-center animate-fade-in">
           <div className="bg-navy-mid rounded-[20px] overflow-hidden h-80 w-full relative border border-white/10">
-            <img src="/images/cutting-sticker.png" alt="Cutting Sticker Profesional" className="w-full h-full object-cover" />
+            <img src="/images/cutting-sticker.webp" alt="Cutting Sticker Profesional" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent" />
             <span className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-navy/85 text-white text-[11px] font-semibold px-3.5 py-1.5 rounded-full tracking-wider backdrop-blur-sm">
               PREMIUM CUTTING STICKER
@@ -190,8 +190,8 @@ export default function HomePage() {
               <div className="w-28 h-28 rounded-full border-4 border-white/15 flex items-center justify-center animate-pulse-gold">
                 <span className="text-4xl">📞</span>
               </div>
-              <div className="absolute top-6 right-8 w-10 h-10 rounded-full bg-gold/20 animate-float" style={{animationDelay: '0.5s'}} />
-              <div className="absolute bottom-8 left-10 w-6 h-6 rounded-full bg-gold/15 animate-float" style={{animationDelay: '1.5s'}} />
+              <div className="absolute top-6 right-8 w-10 h-10 rounded-full bg-gold/20 animate-float" style={{ animationDelay: '0.5s' }} />
+              <div className="absolute bottom-8 left-10 w-6 h-6 rounded-full bg-gold/15 animate-float" style={{ animationDelay: '1.5s' }} />
             </div>
           </div>
         </div>

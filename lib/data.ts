@@ -69,7 +69,7 @@ export const products: Product[] = [
       'Tersedia 50+ pilihan warna',
     ],
     icon: '✂️',
-    image: '/images/cutting-sticker.png',
+    image: '/images/cutting-sticker.webp',
   },
   {
     id: '2',
@@ -84,7 +84,7 @@ export const products: Product[] = [
       'Custom shape & ukuran',
     ],
     icon: '🖨️',
-    image: '/images/print-cut.png',
+    image: '/images/print-cut.webp',
   },
   {
     id: '3',
@@ -99,7 +99,7 @@ export const products: Product[] = [
       'Mudah dibersihkan',
     ],
     icon: '🪟',
-    image: '/images/sandblast.png',
+    image: '/images/sandblast.webp',
   },
   {
     id: '4',
@@ -114,22 +114,22 @@ export const products: Product[] = [
       'Berbagai tekstur tersedia',
     ],
     icon: '🎨',
-    image: '/images/vinyl.png',
+    image: '/images/vinyl.webp',
   },
 ]
 
 // ──── Portfolio Items ────
 
 export const portfolioItems: PortfolioItem[] = [
-  { id: '1', title: 'Branding Kendaraan Fleet', location: 'Bandung', year: '2024', category: 'Cutting Sticker', image: '/images/vehicle-branding.png' },
-  { id: '2', title: 'Dekorasi Cafe Interior', location: 'Jakarta', year: '2024', category: 'Print & Cut', image: '/images/vinyl.png' },
-  { id: '3', title: 'Frosted Glass Office Partisi', location: 'Bandung', year: '2024', category: 'Sandblast', image: '/images/sandblast.png' },
-  { id: '4', title: 'Wall Mural Restaurant', location: 'Surabaya', year: '2023', category: 'Vinyl', image: '/images/vinyl.png' },
-  { id: '5', title: 'Signage Toko Retail', location: 'Bandung', year: '2023', category: 'Cutting Sticker', image: '/images/storefront.png' },
-  { id: '6', title: 'Vehicle Wrap Full Body', location: 'Jakarta', year: '2023', category: 'Print & Cut', image: '/images/vehicle-branding.png' },
-  { id: '7', title: 'Etalase Kaca Butik', location: 'Bandung', year: '2023', category: 'Sandblast', image: '/images/sandblast.png' },
-  { id: '8', title: 'Label Produk Custom', location: 'Semarang', year: '2024', category: 'Print & Cut', image: '/images/print-cut.png' },
-  { id: '9', title: 'Dekorasi Event Stage', location: 'Bandung', year: '2024', category: 'Vinyl', image: '/images/cutting-sticker.png' },
+  { id: '1', title: 'Branding Kendaraan Fleet', location: 'Bandung', year: '2024', category: 'Cutting Sticker', image: '/images/vehicle-branding.webp' },
+  { id: '2', title: 'Dekorasi Cafe Interior', location: 'Jakarta', year: '2024', category: 'Print & Cut', image: '/images/vinyl.webp' },
+  { id: '3', title: 'Frosted Glass Office Partisi', location: 'Bandung', year: '2024', category: 'Sandblast', image: '/images/sandblast.webp' },
+  { id: '4', title: 'Wall Mural Restaurant', location: 'Surabaya', year: '2023', category: 'Vinyl', image: '/images/vinyl.webp' },
+  { id: '5', title: 'Signage Toko Retail', location: 'Bandung', year: '2023', category: 'Cutting Sticker', image: '/images/storefront.webp' },
+  { id: '6', title: 'Vehicle Wrap Full Body', location: 'Jakarta', year: '2023', category: 'Print & Cut', image: '/images/vehicle-branding.webp' },
+  { id: '7', title: 'Etalase Kaca Butik', location: 'Bandung', year: '2023', category: 'Sandblast', image: '/images/sandblast.webp' },
+  { id: '8', title: 'Label Produk Custom', location: 'Semarang', year: '2024', category: 'Print & Cut', image: '/images/print-cut.webp' },
+  { id: '9', title: 'Dekorasi Event Stage', location: 'Bandung', year: '2024', category: 'Vinyl', image: '/images/cutting-sticker.webp' },
 ]
 
 // ──── Blog Posts ────
