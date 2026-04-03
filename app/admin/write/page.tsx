@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import {
@@ -16,7 +16,7 @@ import type { BlogPost } from '@/lib/data'
 
 const toolbarButtons = ['B', 'I', 'U', 'H1', 'H2', 'H3', 'List', 'Link', 'Image', 'Quote']
 
-export default function WritePage() {
+function WritePageInner() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const editId = searchParams.get('id')
@@ -462,5 +462,13 @@ export default function WritePage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function WritePage() {
+  return (
+    <Suspense fallback={null}>
+      <WritePageInner />
+    </Suspense>
   )
 }
